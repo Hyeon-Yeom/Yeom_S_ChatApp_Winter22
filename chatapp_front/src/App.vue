@@ -1,30 +1,54 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  <section id="app">
+    <header>
+      <h1 class="hidden">Welcome to Chat App!</h1>
+      <h2 class="hidden">Chat App With Vue CLI, Express and Socket.io</h2>
+      <a class="hogwartsLogo" href="https://www.freepnglogos.com/pics/hogwarts" title="Image from freepnglogos.com"><img src="https://www.freepnglogos.com/uploads/hogwarts-logo-png/hogwarts-logo-shadopro-deviantart-0.png" width="100" alt="hogwarts logo shadopro deviantart" /></a>
+      <h2>Our Hearts Are Bigger Than Our Fear, Gryffindor</h2>
+      <h3>*** Slytherin Is Not Welcome here. ***</h3>
+    </header>
+
+    <h3>[ HOGWARTS SCHOOL of WITCHCRAFT and WIZARDRY ]</h3>
+      <router-view></router-view>
+    <h3>Don't Run With Swords In Your Mouth. - Dan Meyer</h3>
+  </section>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+section {
+  font-family: 'Roboto';
+  color: #AE0001;
+}
+
+header {
   text-align: center;
-  color: #2c3e50;
+  font-family: 'roboto';
+  background-image: linear-gradient(#EEBA30, #D3A625);
+  padding: 3em 0.8em;
 }
 
-#nav {
-  padding: 30px;
+.hidden {
+  display: none;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+header h2 {
+  font-size: 2em;
+  margin-bottom: 0.8em;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+.hogwartsLogo {
+  
 }
+
+p {
+  display: none;
+}
+
+h3 {
+  text-align: center;
+  font-size: 15px;
+  margin: 1em auto;
+}
+
 </style>

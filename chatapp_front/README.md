@@ -1,4 +1,4 @@
-# chatapp_front
+# chapapp_front
 
 ## Project setup
 ```

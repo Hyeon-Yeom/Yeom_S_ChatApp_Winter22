@@ -1,0 +1,33 @@
+.hidden { display: $hidden }
+.disabled { opacity: 0.4; }
+
+#welcome-wrapper {
+    text-align: center;
+
+    h2 { 
+        font-size: 0.9em;
+        margin: 30px auto;
+        text-align: center;
+        width: 700px;
+    }
+
+    input { 
+        margin-top: 1em;
+        font-size: 1em;
+        width: 40vw;
+        text-align: center;
+        padding: 1em;
+        border: thin solid grey;
+        border-radius: 0.4em;
+    }
+
+    button { 
+        font-size: 1em; 
+        background-color: #EEBA30; 
+        color: $knockout-color;
+        padding: 0.8em 1.2em;
+        border: thin solid #D3A625;
+        border-radius: $rounded;
+        margin: 1em  0.5em;
+    }
+}
