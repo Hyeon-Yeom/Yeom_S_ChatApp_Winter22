@@ -28,3 +28,8 @@ Chat Room Page  as anonymous.
 Chat Room Page
 - path: '/chat'
 - Details: It is what I learned and created in class either. User can leave their messages and have a talk.
+
+## Problems
+- Couldn't find ways to make 'register' button or 'log in' button active. Currently, the users cannot know if they are registered successfully and also, these buttons don't take the users to chat room or '/home' page.
+
+- Had an issue with node. Couldn't make the messages stored by using node app function.
