@@ -26,8 +26,15 @@
         background-color: #EEBA30; 
         color: $knockout-color;
         padding: 0.8em 1.2em;
-        border: thin solid #D3A625;
-        border-radius: $rounded;
+        border: none;
+        border-radius: 100px;
         margin: 1em  0.5em;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #353535;
+        color: white;
+        transition: all .3s ease-out;
     }
 }

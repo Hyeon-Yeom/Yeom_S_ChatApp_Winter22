@@ -1,7 +1,6 @@
 <template>
   <section id="welcome-wrapper">
-  <h1 class="hidden">Sign In</h1>
-  <h2>We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry. This is the chat room for Gryffindor student.</h2>
+  <h1 class="hidden">Log In</h1>
 
   <input type="text" name="username" v-model="username" placeholder="Your Name">
 

@@ -8,7 +8,7 @@
       <section id="chat-users-ui">
         <h2>Current Users</h2>
 
-        <!-- Lay this out however you llike - We're just using a list -->
+        <!-- Lay this out however you like - We're just using a list -->
 
         <ul id="current-users">
           <!-- Render a users component for every connected user here -->

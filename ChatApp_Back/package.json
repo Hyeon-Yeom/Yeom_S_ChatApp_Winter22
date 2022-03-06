@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vue/cli": "^5.0.1",
     "express": "^4.17.3",
+    "g": "^2.0.1",
     "socket.io": "^4.4.1"
   }
 }

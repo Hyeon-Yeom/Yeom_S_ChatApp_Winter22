@@ -1,0 +1,105 @@
+.hidden {
+    display: none;
+}
+
+.enrolled-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5em auto 5em auto;
+}
+
+.line {
+    border: 1px solid #e7e7e7
+}
+
+.enrolled {
+    text-align: center;
+    font-size: 1em;
+    color: rgb(255, 200, 49);
+}
+
+.btn-enrolled {
+    align-items: center;
+    margin-left: 1em;
+    border: none;
+    border-radius: 100px;
+    background: #353535;
+    color: white;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn-enrolled:hover {
+    background: rgb(255, 200, 49);
+    color: #353535;
+    font-weight: bold;
+    transition: all .3s ease-out;
+}
+
+.registering {
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+form {
+    display: block;
+    align-items: center;
+    margin: 5em auto 5em auto;
+}
+
+.form-group {
+    margin: 30px auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    letter-spacing: .5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #353535;
+    padding-bottom: 5px;
+}
+
+.form-group input {
+    width: 350px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    background: #e7e7e7;
+}
+
+.form-group ::placeholder {
+    color: rgb(156, 156, 156);
+    font-size: 13px;
+    text-align: center;
+}
+
+.confirming {
+    margin-bottom: 5em;
+}
+
+.btn {
+    display: block;
+    align-items: center;
+    margin: 1px auto;
+    border: none;
+    border-radius: 100px;
+    background: #353535;
+    color: white;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #ebebeb;
+    color: #353535;
+    font-weight: bold;
+    transition: all .3s ease-out;
+}

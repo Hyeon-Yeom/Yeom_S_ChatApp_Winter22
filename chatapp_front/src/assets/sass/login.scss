@@ -1,0 +1,73 @@
+.hidden {
+    display: none;
+}
+
+.loggingIn {
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 2em;
+}
+
+form {
+    align-items: center;
+    margin: 5em auto;
+}
+
+.form-group {
+    margin: 0px auto;
+    align-items: center;
+}
+
+.username, .password {
+    display: flex;
+    flex-direction: column;
+}
+
+.username label, .password label {
+    letter-spacing: .5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #353535;
+    padding-bottom: 5px;
+}
+
+.username input, .password input {
+    width: 350px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    background: #e7e7e7;
+}
+
+.username ::placeholder, .password ::placeholder {
+    color: rgb(156, 156, 156);
+    font-size: 13px;
+    text-align: center;
+}
+
+.password {
+    margin-top: 30px;
+    margin-bottom: 5em;
+}
+
+.btn {
+    display: block;
+    align-items: center;
+    margin: 1px auto;
+    border: none;
+    border-radius: 100px;
+    background: #353535;
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #ebebeb;
+    text-decoration: none;
+    color: #353535;
+    font-weight: bold;
+    transition: all .3s ease-out;
+}
