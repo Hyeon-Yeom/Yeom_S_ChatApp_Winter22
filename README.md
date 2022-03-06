@@ -4,6 +4,9 @@ by Seunghyeon Yeom (0975764)
 ## Theme
 Harry Potter
 
+## Software
+Npm (Express, Axios, Socket.io)
+
 ## Processes
 Greeting Page
 - path: '/'
