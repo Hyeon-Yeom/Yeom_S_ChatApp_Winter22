@@ -2,14 +2,14 @@
   <section id="welcome-wrapper">
   <h1 class="hidden">Log In</h1>
 
-  <input type="text" name="username" v-model="username" placeholder="Your Name">
+  <input type="text" name="username" v-model="username" placeholder="Type Your Username.">
 
   <div>
     <button
       :class="{ 'disabled': canJoin }"
       :disabled='canJoin'
       @click="goToChat"
-    >Join Chat!</button>
+    >Join Chat</button>
     <button @click="goToChat">Join Anonymously</button>
   </div>
 

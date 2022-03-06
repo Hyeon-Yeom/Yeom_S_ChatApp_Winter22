@@ -1,7 +1,6 @@
 <template>
     <section>
         <h1 class="hidden">Greeting Message</h1>
-
         <div>
             <h2 class="hello">Welcome, Gryffindor!</h2>
         </div>

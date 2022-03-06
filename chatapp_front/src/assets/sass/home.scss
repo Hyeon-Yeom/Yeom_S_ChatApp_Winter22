@@ -13,12 +13,16 @@
 
     input { 
         margin: 5em auto 2em auto;
-        font-size: 1em;
-        width: 40vw;
+        width: 350px;
         text-align: center;
         padding: 1em;
-        border: 2px solid #353535;
+        border: 2px solid #aaaaaa;
         border-radius: 100px;
+    }
+    
+    input::placeholder {
+        color: #aaa;
+        font-size: 13px;
     }
 
     button { 

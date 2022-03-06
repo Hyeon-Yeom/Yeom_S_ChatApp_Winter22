@@ -67,11 +67,13 @@ export default {
                     res => {
                         console.log(res)
                     }
-                ) .cath(
+                ) .catch(
                     err => {
                         console.log(err)
                     }
                 )
+
+            this.$router.push('/login');
         },
 
         goToHome() {

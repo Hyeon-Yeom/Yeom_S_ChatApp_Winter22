@@ -4,19 +4,13 @@
     <header>
       <h1 class="hidden">Welcome to Chat App</h1>
       <h2 class="hidden">Chat App With Vue CLI, Express and Socket.io</h2>
-      <a class="hogwartsLogo" href="App.vue" title="Image from freepnglogos.com"><img src="https://www.freepnglogos.com/uploads/hogwarts-logo-png/hogwarts-logo-shadopro-deviantart-0.png" width="100" alt="hogwarts logo shadopro deviantart" /></a>
+      <a href="Greeting.vue" title="Image from freepnglogos.com"><img src="https://www.freepnglogos.com/uploads/hogwarts-logo-png/hogwarts-logo-shadopro-deviantart-0.png" width="100" alt="hogwarts logo shadopro deviantart" /></a>
       <h3 class="banner">Our Hearts Are Bigger Than Our Fear, Gryffindor</h3>
-      <!-- <h3>*** Slytherin Is Not Welcome here. ***</h3> -->
+      <h4>HOGWARTS SCHOOL of WITCHCRAFT and WIZARDRY</h4>
     </header>
 
-    <!-- <h3>[ HOGWARTS SCHOOL of WITCHCRAFT and WIZARDRY ]</h3> -->
-
     <router-view></router-view>
-    <!-- <h3>Don't Run With Swords In Your Mouth. - Dan Meyer</h3> -->
   </section>
-
-  <!-- <h2>We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry. This is the chat room for Gryffindor student.</h2> -->
-
 </template>
 
 <style>
@@ -49,7 +43,12 @@ p {
 h3 {
   text-align: center;
   font-size: 15px;
+  color: #886607;
   margin: 1em auto;
+}
+
+h4 {
+  color: #886607;
 }
 
 </style>
