@@ -1,3 +1,7 @@
 export default {
-    basePath: "http://localhost:8080"
+    // local deployment
+    // basePath: "http://localhost:8080"
+
+    // remore deployment
+    basePath: '/'
 }
